@@ -20,10 +20,5 @@ black = "^23.1.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[[tool.poetry.source]]
-name = "jfrog"
-url = "https://ramseysolutions.jfrog.io/artifactory/api/pypi/pypi/simple"
-default = true
-
 [tool.poetry.scripts]
 add-nums = 'hypothesis_talk.__main__:main'
